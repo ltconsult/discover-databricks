@@ -1,0 +1,9 @@
+{
+	"name": "discover-databricks-ADF",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "67d15072-fca4-41c1-9157-077cd0ac0366",
+		"tenantId": "d9ea3aba-81c1-4c31-9ec2-a2c4611bd2ac"
+	}
+}
