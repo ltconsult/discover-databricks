@@ -1,0 +1,24 @@
+{
+	"name": "discover_databricks_output_aw_customer",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "discover_databricks_adls_linked_service",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "AdventureWorksLT/output"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customer.parquet",
+				"folderPath": "AdventureWorksLT",
+				"fileSystem": "landing-zone"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
