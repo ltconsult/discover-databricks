@@ -1,0 +1,10 @@
+{
+	"name": "discover_databricks_adls_linked_service_input_AzureSqlDatabase",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=discover-databricks-sql.database.windows.net;Initial Catalog=discover-databricks-azure"
+		}
+	}
+}
