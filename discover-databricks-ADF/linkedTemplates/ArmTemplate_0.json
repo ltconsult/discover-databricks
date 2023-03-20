@@ -435,14 +435,7 @@
 					{
 						"name": "aw_copy_customer",
 						"type": "Copy",
-						"dependsOn": [
-							{
-								"activity": "aw_copy_address",
-								"dependencyConditions": [
-									"Skipped"
-								]
-							}
-						],
+						"dependsOn": [],
 						"policy": {
 							"timeout": "0.12:00:00",
 							"retry": 0,
