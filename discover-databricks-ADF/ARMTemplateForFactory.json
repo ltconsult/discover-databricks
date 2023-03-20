@@ -316,7 +316,7 @@
 						]
 					},
 					{
-						"name": "aw_copy_address_copy1",
+						"name": "aw_copy_customer",
 						"type": "Copy",
 						"dependsOn": [
 							{
